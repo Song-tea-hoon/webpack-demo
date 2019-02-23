@@ -1,7 +1,7 @@
 // CommonJS 스펙
 // var _ = require('lodash');
 // ES6 스펙
-// import _ from 'lodash'
+import _ from 'lodash'
 
 function component() {
   let element = document.createElement('div');
@@ -13,3 +13,5 @@ function component() {
 }
 
 document.body.appendChild(component());
+
+console.log('runnging')
