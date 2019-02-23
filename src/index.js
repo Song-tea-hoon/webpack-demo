@@ -6,6 +6,8 @@ import './style.css'
 import './hello.scss'
 // named import
 import { area, circumference } from './js/circle'
+// default imort : 이름을 임의로 바꿀 수 있다.
+import box from './js/cube'
 
 function component() {
   let element = document.createElement('div');
@@ -19,3 +21,5 @@ function component() {
 document.body.appendChild(component());
 
 console.log('runnging')
+console.log(area(5), circumference(5));
+console.log(box(5))
