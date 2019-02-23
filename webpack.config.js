@@ -12,6 +12,10 @@ module.exports ={
       {
         test: /\.css$/, // 정규식 프레디케이트( true, false ) -> css파일이면 true이면 모듈 적용, 아니면 false
         use: [ "style-loader", "css-loader" ] // 뒤부터 적용
+      },
+      {
+        test: /\.scss$/,
+        use: [ "style-loader", "css-loader", "sass-loader" ]
       }
     ]
   },

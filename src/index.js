@@ -3,6 +3,7 @@
 // ES6 스펙
 import _ from 'lodash'
 import './style.css'
+import './hello.scss'
 
 function component() {
   let element = document.createElement('div');

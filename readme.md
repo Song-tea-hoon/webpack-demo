@@ -13,8 +13,12 @@ npm init
 npm install 모듈명
 ```
 > package.json 의존성 종류 
-- dependencies 실제 서비스에 필요한 모듈
-- devDependencies 개발에만 필요한 모듈
+- dependencies : 실제 서비스에 필요한 모듈
+- devDependencies : 개발에만 필요한 모듈
 
-> css loader -> 하나로 뭉치기
-> style loader -> 스타일을 붙여주는 역할
+webpack은 css도 import하여 모듈화 한다.
+
+> css관련 loader
+- css loader : 하나로 뭉치기
+- style loader : 스타일을 붙여주는 역할
+
