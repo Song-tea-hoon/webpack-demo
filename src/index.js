@@ -4,6 +4,8 @@
 import _ from 'lodash'
 import './style.css'
 import './hello.scss'
+// named import
+import { area, circumference } from './js/circle'
 
 function component() {
   let element = document.createElement('div');
